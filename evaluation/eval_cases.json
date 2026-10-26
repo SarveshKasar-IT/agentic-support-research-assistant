@@ -1,0 +1,72 @@
+[
+  {
+    "id": "RAG-01",
+    "category": "rag",
+    "input": "How can I reset my password?",
+    "expected_behavior": "Use the knowledge base and provide the documented password reset steps."
+  },
+  {
+    "id": "RAG-02",
+    "category": "rag",
+    "input": "What should I do if I don't receive the password reset email?",
+    "expected_behavior": "Use the knowledge base and provide the documented troubleshooting steps."
+  },
+  {
+    "id": "CALC-01",
+    "category": "calculator",
+    "input": "What is 125 * 48?",
+    "expected_tool": "calculator",
+    "expected_result": "6000"
+  },
+  {
+    "id": "CALC-02",
+    "category": "calculator",
+    "input": "Calculate (25 + 15) * 2",
+    "expected_tool": "calculator",
+    "expected_result": "80"
+  },
+  {
+    "id": "WEB-01",
+    "category": "web_search",
+    "input": "What are the latest developments in LangGraph?",
+    "expected_tool": "web_search",
+    "expected_behavior": "Use web search because the question requires current information."
+  },
+  {
+    "id": "WEB-02",
+    "category": "web_search",
+    "input": "What is the latest LangGraph release?",
+    "expected_tool": "web_search",
+    "expected_behavior": "Use web search to obtain current release information."
+  },
+  {
+    "id": "MEM-01",
+    "category": "memory",
+    "conversation": [
+      "My name is Alex.",
+      "What is my name?"
+    ],
+    "expected_behavior": "The second response should identify the user as Alex."
+  },
+  {
+    "id": "MEM-02",
+    "category": "memory",
+    "conversation": [
+      "I need help with my password.",
+      "What problem did I mention?"
+    ],
+    "expected_behavior": "The second response should remember the password problem."
+  },
+  {
+    "id": "FALL-01",
+    "category": "fallback",
+    "input": "What is the company's policy for office parking permits?",
+    "expected_behavior": "Do not invent an answer. State that the knowledge base does not contain sufficient information."
+  },
+  {
+    "id": "FALL-02",
+    "category": "fallback",
+    "input": "Who is the CEO of a company not covered by the knowledge base?",
+    "expected_behavior": "Do not hallucinate. Use web search when external/current information is appropriate."
+  }
+]

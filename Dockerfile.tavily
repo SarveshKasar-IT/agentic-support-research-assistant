@@ -1,0 +1,2 @@
+FROM agentic-support-research-assistant:fixed
+RUN pip install --no-cache-dir tavily-python

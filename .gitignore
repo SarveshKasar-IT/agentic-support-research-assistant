@@ -1,0 +1,39 @@
+# Environment
+.env
+
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Testing
+.pytest_cache/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+*.csv
+*.parquet
+
+# Vector databases
+vector_store/
+chroma_db/
+faiss_index/
+
+# Logs
+*.log
+
+# Secrets
+*.pem
+*.key
+# Local ChromaDB database
+vectorstore/

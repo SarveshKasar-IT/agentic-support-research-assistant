@@ -1,0 +1,39 @@
+Customer Support Knowledge Base
+
+Account and Login
+
+Customers can reset their password from the login page by selecting "Forgot Password".
+A password reset link is sent to the registered email address.
+If the customer does not receive the email, they should check their spam or junk folder.
+
+Orders
+
+Customers can check order status from the Orders section of their account.
+An order marked as Processing has been received and is being prepared.
+An order marked as Shipped has been handed to the delivery carrier.
+An order marked as Delivered has reached the customer.
+
+Returns
+
+Customers can request a return from the Orders section.
+Items must normally be returned within the applicable return window.
+The customer should provide the order number and reason for the return.
+
+Refunds
+
+Refunds are normally initiated after the returned item has been received and inspected.
+The time required for the refund to appear depends on the payment method and financial institution.
+
+Shipping
+
+Customers can track shipped orders using the tracking information available in their order details.
+Delivery times may vary depending on the destination and shipping provider.
+
+Technical Support
+
+If a customer experiences repeated login problems, they should first reset their password.
+If the problem continues after a password reset, the issue should be escalated to technical support.
+
+Escalation
+
+Issues involving suspected unauthorized account access, repeated payment failures, or unresolved technical problems should be escalated to the appropriate support team.
